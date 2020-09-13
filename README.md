@@ -1,6 +1,7 @@
 # lifx-saber
 nodejs script to control lifx lights on a local network using the beatsaber-http-status mod. Lights will flash blue on left note hits (or more specifically 'NoteA' hits), and likewise red for 'NoteB' hits.
 
+[![Demo lifx-saber](https://j.gifs.com/ZY1XZw.gif)](https://streamable.com/ziev01)
 
 
 # Disclaimer
