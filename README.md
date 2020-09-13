@@ -21,10 +21,12 @@ From the command-line, navigate to the directory containing lifx-saber.js and ru
   'node lifx-saber.js'
 You should then be prompted to enter the IP address of the lifx light on your network that you would like to sync to beat saber. You can enter a specific IP or use a broadcast address (for example, I use 192.168.0.255 to sync all of the lights on my network).
 
-*TIP:* If you have more than one lifx light at your disposal, it is easy to utilize both of them separately (one for blue notes and one for red), you just need to modify the js script, and change the "lifxIP" on lines 21 and 31 to the IP address of the "blue" light and the "red" light, respectively (in quotations). 
-For example:
-change Line 21 FROM: .... lifxIP .... TO .... "192.168.1.101" ....
-and same for line 31. 
+**TIP:**  _If you have more than one lifx light at your disposal, it is easy to utilize both of them separately (one for blue notes and one for red), you just need to modify the js script, and change the "lifxIP" on lines 21 and 31 to the IP address of the "blue" light and the "red" light, respectively (in quotations)._
+
+
+For example,
+<br> - change Line 21 FROM: (...) lifxIP (...) TO (...) "192.168.1.101" (...)
+<br> - and same for line 31.
 
 I will probably find a better way to implement this altogether, at some point (using a configuration file or something like that), but I can't be bothered right now. 
 
